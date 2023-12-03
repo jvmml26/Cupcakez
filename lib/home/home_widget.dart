@@ -252,7 +252,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                 child: const Icon(
                                   Icons.location_history,
                                   color: Color(0xFFE9EEF1),
-                                  size: 35.0,
+                                  size: 50.0,
                                 ),
                               ),
                             ),
@@ -270,7 +270,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                               child: const Icon(
                                 Icons.shopping_bag_outlined,
                                 color: Color(0xFFEBF4FB),
-                                size: 35.0,
+                                size: 50.0,
                               ),
                             ),
                           ),
@@ -363,7 +363,7 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
                                 listViewCupcakeRecord.imageUrl,
                                 width: double.infinity,
                                 height: 260.0,
-                                fit: BoxFit.cover,
+                                fit: BoxFit.contain,
                               ),
                             ),
                             Stack(

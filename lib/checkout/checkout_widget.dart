@@ -307,12 +307,15 @@ class _CheckoutWidgetState extends State<CheckoutWidget> {
                                   ],
                                 ),
                                 Text(
-                                  formatNumber(
-                                    functions
-                                        .sum(FFAppState().cartTotal.toList()),
-                                    formatType: FormatType.decimal,
-                                    decimalType: DecimalType.commaDecimal,
-                                    currency: '\$',
+                                  valueOrDefault<String>(
+                                    formatNumber(
+                                      functions
+                                          .sum(FFAppState().cartTotal.toList()),
+                                      formatType: FormatType.decimal,
+                                      decimalType: DecimalType.commaDecimal,
+                                      currency: '\$',
+                                    ),
+                                    '0',
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).displaySmall,
