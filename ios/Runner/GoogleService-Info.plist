@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA_nh68gLFYOOF7cNAU9y2HRAjNIkc6_qQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>953051232660</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.cupcakez</string>
+	<key>PROJECT_ID</key>
+	<string>cupcakez-7fwi0h</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cupcakez-7fwi0h.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:953051232660:ios:2d8145d03df17797737781</string>
+</dict>
+</plist>
